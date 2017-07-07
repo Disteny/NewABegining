@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    @*<link href="~/Content/Site.css" rel="stylesheet" />*@
+    @Styles.Render("~/Content/css")
+</head>
+
+<body>
+
+    <div id="masterdiv" class="masterDiv">
+        <div >
+            @Html.Label("MyWebSite", new { @class = "masterLabel" })
+        </div>
+        <div >
+            @Html.ActionLink("Home", "index", "ContactUs", null, new { style = "color:white;" })
+            @Html.ActionLink("Contact Us", "index", "ContactUs", null, new { style = "color:white;padding-left: 5px;" })
+            @Html.ActionLink("About Us", "index", "AboutUs", null, new { style = "color:white;padding-left: 5px;" })           
+            @Html.ActionLink("What to DO", "index", "AboutUs", null, new { style = "color:white;padding-left: 5px;" })
+        </div>
+    </div>
+    <div>
+        @RenderBody()
+    </div>
+</body>
+</html>

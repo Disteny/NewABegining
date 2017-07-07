@@ -22,3 +22,28 @@ select,
 textarea {
     max-width: 280px;
 }
+.NameTextbox{
+    border-color:red;    
+}
+.Label
+{
+    font-size:medium;
+    color:blue;
+    font-style:italic;
+    border:medium;
+    border-color:greenyellow;   
+        
+}
+.contusDiv{
+  display: flex;
+  justify-content: center;      
+
+}
+.masterDiv {
+    background-color: black;
+    font-size: medium;
+}
+.masterLabel{
+    font-size:x-large;
+    color:rebeccapurple;
+}

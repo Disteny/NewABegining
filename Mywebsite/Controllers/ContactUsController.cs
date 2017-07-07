@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using Mywebsite.Models;
 
 namespace Mywebsite.Controllers
 {
@@ -13,6 +14,12 @@ namespace Mywebsite.Controllers
         {
             return View();
             
+        }
+        [HttpPost]
+        public ActionResult Submit()
+        {
+            return View();
+
         }
     }
 }
