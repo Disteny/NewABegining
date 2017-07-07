@@ -36,7 +36,10 @@ textarea {
 }
 .contusDiv{
   display: flex;
-  justify-content: center;      
+  justify-content: center;  
+  background-image:url("/Images/ContactusImage.jpg") ;   
+  background-repeat:no-repeat;
+  background-size:300px,800px;
 
 }
 .masterDiv {
@@ -45,5 +48,5 @@ textarea {
 }
 .masterLabel{
     font-size:x-large;
-    color:rebeccapurple;
+    color:chartreuse;
 }
